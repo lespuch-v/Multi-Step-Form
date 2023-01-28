@@ -1,7 +1,7 @@
 <div class="navigation-menu-main">
   <div *ngFor="let step of steps" class="inner-container">
     <div>
-      <button class="step-button-count">{{step.id}}</button>
+      <button [routerLink]="['/component' + step.id]" class="step-button-count">{{step.id}}</button>
     </div>
     <div>
       <p>{{step.title}}</p>
