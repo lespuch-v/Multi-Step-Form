@@ -1,21 +1,55 @@
-.navigation-menu-main{
+.navigation-menu-main {
   background-image: url("/assets/multi-step-form-main/assets/images/bg-sidebar-desktop.svg");
-  width: 500px;
-  height: 800px;
+  width: 215px;
+  height: 510px;
   object-fit: contain;
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  padding-left: 20px;
+  padding: 30px;
 }
-.step-button-count{
+
+.step-button-count {
   border-radius: 50%;
   height: 50px;
   width: 50px;
+  margin-right: 10px;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+  font-weight: bolder;
+  background: transparent;
 }
-.inner-container{
+
+.inner-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
+
+.inner-container:hover{
+ cursor: pointer;
+}
+
+button:hover{
+  background: #d2e5f3;
+  color: black;
+  cursor: pointer;
+}
+
+h2, p {
+  margin: 0;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+p {
+  color: #9b9fec;
+}
+
+h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
