@@ -1,0 +1,11 @@
+<div class="navigation-menu-main">
+  <div *ngFor="let step of steps" class="inner-container">
+    <div>
+      <button class="step-button-count">{{step.id}}</button>
+    </div>
+    <div>
+      <p>{{step.title}}</p>
+      <h2>{{step.description}}</h2>
+    </div>
+  </div>
+</div>

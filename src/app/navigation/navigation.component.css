@@ -1,0 +1,21 @@
+.navigation-menu-main{
+  background-image: url("/assets/multi-step-form-main/assets/images/bg-sidebar-desktop.svg");
+  width: 500px;
+  height: 800px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.step-button-count{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.inner-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
